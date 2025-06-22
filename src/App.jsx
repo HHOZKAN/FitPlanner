@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { SessionProvider } from './context/SessionContext';
 import Header from './components/Header';
-import Sidebar from './components/Sidebar';
+import Sidebar from './components/SideBar';
 import Dashboard from './pages/Dashboard';
 import SessionDetail from './pages/SessionDetail';
 import SessionEdit from './pages/SessionEdit';
